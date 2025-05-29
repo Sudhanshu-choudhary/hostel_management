@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "homepage": "https://Sudhanshu-choudhary.github.io/hostel_management",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

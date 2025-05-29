@@ -11,7 +11,7 @@ import Occupancy from './pages/Occupancy';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/hostel_management'>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
