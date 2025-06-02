@@ -1,5 +1,5 @@
 import { Room, Occupant, Service, GalleryImage } from '../types';
-import { Bed, Wifi, Coffee, Utensils, Tv, Bath, Fan, Flower } from 'lucide-react';
+
 
 export const roomsData: Room[] = [
   {
